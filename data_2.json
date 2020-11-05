@@ -1,0 +1,9 @@
+{
+  "author_id": 2,
+  "readings": {
+    "pressure": "98 bar",
+    "temperature": "45 C",
+    "humidity": "56 %"
+  },
+  "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consequat at lacus vitae eleifend. Duis venenatis sed justo sit amet dapibus. Nam malesuada tincidunt enim, et consequat ligula sodales ac. Morbi hendrerit libero sit amet semper sodales. Donec ultrices est massa, quis aliquam erat rutrum in. Quisque commodo est bibendum purus ultrices, nec facilisis arcu tempor. Donec sagittis suscipit tortor, vitae lobortis leo sagittis feugiat. Suspendisse massa eros, tincidunt vitae finibus et, finibus ut massa. "
+}

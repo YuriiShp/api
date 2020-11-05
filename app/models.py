@@ -1,8 +1,9 @@
 from django.db import models
 
+
 # Create your models here.
 class Report(models.Model):
-    author = models.CharField(max_length=100)
+    author = models.ForeignKey('Author', on_delete=models.CASCADE)
     title = models.CharField(max_length=100)
     readings = models.JSONField()
     text = models.TextField()
@@ -11,3 +12,9 @@ class Report(models.Model):
 
     def __str__(self):
         return str(self.title) + ' by ' + str(self.author)
+
+
+class Author(models.Model):
+    name = models.CharField(max_length=100)
+    position = models.CharField(max_length=100)
+
