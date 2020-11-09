@@ -1,8 +1,7 @@
 from django.urls import path
-from app.views import ReportApiView, AuthorApiView, ReportNestedApiView
+from app.views import AuthorApiView, PostApiView
 
 urlpatterns = [
-    path('reports/', ReportApiView.as_view()),
     path('authors/', AuthorApiView.as_view()),
-    path('reports_nested/', ReportNestedApiView.as_view()),
+    path('post/', PostApiView.as_view()),
 ]
